@@ -1,0 +1,90 @@
+/* General Section Style */
+.admin-panel-section {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px;
+}
+
+/* Admin Panel Title Style */
+.admin-panel-title h1 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: #2a2a2a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 4vh;
+}
+
+/* Flexbox Row for Centering */
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-top: 6vh;
+    flex-wrap: wrap; /* Make it responsive */
+}
+
+/* Button Styles */
+.row .col-md-3 button {
+    height: 12vh;
+    width: 80%;
+    margin: 2vh 0;
+    font-size: 1.2rem;
+    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background: linear-gradient(145deg, #1e7d22, #34c759);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover Effects */
+.row .col-md-3 button:hover {
+    background: linear-gradient(145deg, #186f2c, #38c172);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Button Text Shadow */
+.row .col-md-3 button span {
+    position: relative;
+    z-index: 2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtle Background Effect on Hover */
+.row .col-md-3 button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 300%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.row .col-md-3 button:hover::before {
+    left: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col-md-3 button {
+        width: 90%;
+    }
+}

@@ -1,0 +1,66 @@
+/* About Us Section */
+.about-us-section {
+    padding: 60px 0;
+    background-color: #f0f5f0; /* Light grey-green background */
+    text-align: center;
+  }
+  
+  .about-us-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-us-title {
+    font-size: 3rem;
+    color: #1e7d22; /* Dark green color */
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+  }
+  
+  .about-us-description {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Details Section */
+  .about-us-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .about-us-card {
+    background-color: #ffffff;
+    border: 1px solid #dfe6e9;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+    min-height: 250px;
+    text-align: center;
+  }
+  
+  .about-us-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-us-card h2 {
+    font-size: 1.6rem;
+    color: #1e7d22; /* Dark green color */
+    margin-bottom: 15px;
+  }
+  
+  .about-us-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+  }
+  

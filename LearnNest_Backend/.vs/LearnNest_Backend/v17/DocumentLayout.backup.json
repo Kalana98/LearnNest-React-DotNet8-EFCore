@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|c:\\users\\kalan\\onedrive\\desktop\\.net core projects\\learnnest\\learnnest_backend\\learnnest_backend\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|solutionrelative:learnnest_backend\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|c:\\users\\kalan\\onedrive\\desktop\\.net core projects\\learnnest\\learnnest_backend\\learnnest_backend\\models\\entities\\enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|solutionrelative:learnnest_backend\\models\\entities\\enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|c:\\users\\kalan\\onedrive\\desktop\\.net core projects\\learnnest\\learnnest_backend\\learnnest_backend\\models\\enrollmentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|solutionrelative:learnnest_backend\\models\\enrollmentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|c:\\users\\kalan\\onedrive\\desktop\\.net core projects\\learnnest\\learnnest_backend\\learnnest_backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|solutionrelative:learnnest_backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|c:\\users\\kalan\\onedrive\\desktop\\.net core projects\\learnnest\\learnnest_backend\\learnnest_backend\\models\\entities\\nest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|solutionrelative:learnnest_backend\\models\\entities\\nest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|c:\\users\\kalan\\onedrive\\desktop\\.net core projects\\learnnest\\learnnest_backend\\learnnest_backend\\models\\entities\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|solutionrelative:learnnest_backend\\models\\entities\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|c:\\users\\kalan\\onedrive\\desktop\\.net core projects\\learnnest\\learnnest_backend\\learnnest_backend\\migrations\\20241027032324_updated migration with enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791E943A-C8BD-44F4-855D-A2B8BA81233D}|LearnNest_Backend\\LearnNest_Backend.csproj|solutionrelative:learnnest_backend\\migrations\\20241027032324_updated migration with enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "LearnNest_Backend\\Controllers\\EnrollmentController.cs",
+              "ToolTip": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "LearnNest_Backend\\Controllers\\EnrollmentController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwFIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:25:04.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241027032324_updated migration with enrollments.cs",
+              "DocumentMoniker": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Migrations\\20241027032324_updated migration with enrollments.cs",
+              "RelativeDocumentMoniker": "LearnNest_Backend\\Migrations\\20241027032324_updated migration with enrollments.cs",
+              "ToolTip": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Migrations\\20241027032324_updated migration with enrollments.cs",
+              "RelativeToolTip": "LearnNest_Backend\\Migrations\\20241027032324_updated migration with enrollments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:23:24.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LearnNest_Backend\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LearnNest_Backend\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:21:44.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnrollmentsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Models\\EnrollmentsDTO.cs",
+              "RelativeDocumentMoniker": "LearnNest_Backend\\Models\\EnrollmentsDTO.cs",
+              "ToolTip": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Models\\EnrollmentsDTO.cs",
+              "RelativeToolTip": "LearnNest_Backend\\Models\\EnrollmentsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:21:20.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Nest.cs",
+              "DocumentMoniker": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Models\\Entities\\Nest.cs",
+              "RelativeDocumentMoniker": "LearnNest_Backend\\Models\\Entities\\Nest.cs",
+              "ToolTip": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Models\\Entities\\Nest.cs",
+              "RelativeToolTip": "LearnNest_Backend\\Models\\Entities\\Nest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:19:16.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Models\\Entities\\Courses.cs",
+              "RelativeDocumentMoniker": "LearnNest_Backend\\Models\\Entities\\Courses.cs",
+              "ToolTip": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Models\\Entities\\Courses.cs",
+              "RelativeToolTip": "LearnNest_Backend\\Models\\Entities\\Courses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:19:11.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enrollments.cs",
+              "DocumentMoniker": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Models\\Entities\\Enrollments.cs",
+              "RelativeDocumentMoniker": "LearnNest_Backend\\Models\\Entities\\Enrollments.cs",
+              "ToolTip": "C:\\Users\\kalan\\OneDrive\\Desktop\\.NET Core Projects\\LearnNest\\LearnNest_Backend\\LearnNest_Backend\\Models\\Entities\\Enrollments.cs",
+              "RelativeToolTip": "LearnNest_Backend\\Models\\Entities\\Enrollments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:14:24.995Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

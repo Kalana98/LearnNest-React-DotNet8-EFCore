@@ -1,0 +1,29 @@
+/* src/Components/NavBar.css */
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .dropdown-item {
+  color: white; /* Set text color to white */
+}
+
+.navbar-custom .navbar-brand {
+  color: white; /* Set brand text color to white */
+}
+
+.navbar-custom .nav-link {
+  color: white; /* Set link color to white */
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ddd; /* Optional: Change link color on hover */
+}
+
+.navbar-custom .dropdown-item {
+  color: white; /* Set dropdown item color to white */
+  background-color: rgb(42, 42, 42);
+}
+.navbar-custom .dropdown-item:hover {
+  color: #ddd; /* Optional: Change dropdown item color on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Optional: Add background color on hover */
+}
+
+

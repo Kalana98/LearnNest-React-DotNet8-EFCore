@@ -1,0 +1,81 @@
+.enrollment-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2d572c;
+    margin-bottom: 30px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .enrollment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2d572c;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #dfe6e9;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #2d572c;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #1e7d22;
+  }
+  
+  button:focus,
+  input:focus,
+  select:focus {
+    outline: none;
+    border-color: #1e7d22;
+  }
+  

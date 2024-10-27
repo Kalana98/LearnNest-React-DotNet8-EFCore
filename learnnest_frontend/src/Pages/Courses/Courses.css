@@ -1,0 +1,101 @@
+/* Enhanced Courses Section */
+.course-section {
+  padding: 80px 0;
+  background-color: #e8f5e9;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.section-title {
+  font-size: 3.2rem;
+  color: #388e3c;
+  margin-bottom: 60px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Center the cards container */
+.courses-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Course Card Design */
+.course-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  max-width: 320px;
+  min-width: 280px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Description text adjustments */
+.course-card p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #616161;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Card Hover Effect */
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.15);
+}
+
+.course-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(56, 142, 60, 0.25), rgba(56, 142, 60, 0.1));
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.course-card:hover::before {
+  opacity: 1;
+}
+
+/* Enrollment Button */
+.enroll-button {
+  background-color: #388e3c;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+  align-self: center;
+  box-shadow: 0px 8px 15px rgba(56, 142, 60, 0.2);
+}

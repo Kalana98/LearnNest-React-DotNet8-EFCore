@@ -1,0 +1,86 @@
+/* Contact Us Page Styles */
+
+.contact-us-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contact-us-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-us-header h1 {
+    font-size: 3rem;
+    color: #1e7d22;
+    margin-bottom: 10px;
+  }
+  
+  .contact-us-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .contact-us-form-container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea{
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+
+
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #1e7d22;
+  }
+  
+  .submit-button {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #1e7d22;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #145816;
+    transform: translateY(-3px);
+  }
+  
+  .submit-button:active {
+    transform: translateY(0px);
+  }
+  
