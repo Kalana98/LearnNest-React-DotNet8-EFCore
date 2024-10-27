@@ -95,6 +95,7 @@ This is the root directory for the backend of your project.
    cd LearnNest_Backend
 
 2. Configure the appsettings.json with your database connection string:
+   ```bash
    {
      "ConnectionStrings": {
     "DefaultConnection": "Your-Database-Connection-String"
