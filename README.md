@@ -32,14 +32,53 @@
 
 ## Project Structure
 
-### Backend: `LearnNest_Backend`
+## LearnNest_Backend Directory Structure
 
-LearnNest_Backend/ ├── Controllers/ # API Controllers ├── Data/ # Database context and seeding ├── Migrations/ # EF Core Migrations ├── Models/ # Entity models ├── appsettings.json # Application settings ├── Program.cs # Main application entry point └── ... # Other standard .NET files
+This is the root directory for the backend of your project.
+
+### LearnNest_Backend/
+      ```bash
+      ├── **Controllers/**                 # API Controllers
+      ├── **Data/**                        # Database context and seeding
+      ├── **Migrations/**                  # EF Core Migrations
+      ├── **Models/**                      # Entity models
+      ├── **appsettings.json**             # Application settings
+      ├── **Program.cs**                   # Main application entry point
+      └── ...                              # Other standard .NET files
+
+## Frontend: `learnnest_frontend`
+
+### Directory Structure
 
 
-### Frontend: `learnnest_frontend`
+### Description
 
-learnnest_frontend/ ├── src/ │ ├── components/ # Reusable components │ ├── pages/ # Main application pages │ ├── services/ # API service files │ ├── App.js # Main React component │ └── index.js # Entry point for React └── public/ # Public assets (images, icons)
+#### **`src/`**
+- **Purpose**: Contains all the source code for the React application.
+  
+  - **`components/`**
+    - **Purpose**: Holds reusable React components.
+    - **Details**: These are smaller pieces of UI that can be used throughout the application, such as buttons, navigation bars, cards, and form inputs.
+
+  - **`pages/`**
+    - **Purpose**: Main application pages.
+    - **Details**: This folder contains the main pages of the application, like the Home page, Courses page, Enrollment page, and Admin panel. Each page is typically structured as a separate React component.
+
+  - **`services/`**
+    - **Purpose**: API service files.
+    - **Details**: Contains utility files to handle HTTP requests to the backend API, such as fetching course data, managing enrollments, etc.
+
+  - **`App.js`**
+    - **Purpose**: The main React component.
+    - **Details**: Serves as the root component that sets up the routes and general layout for the application.
+
+  - **`index.js`**
+    - **Purpose**: Entry point for the React application.
+    - **Details**: This file is the starting point of the React app. It renders the `App.js` component into the DOM.
+
+#### **`public/`**
+- **Purpose**: Stores public assets.
+- **Details**: This folder contains static assets like images, icons, and index.html. These files are accessible directly by the browser and are not processed by Webpack or other bundlers.
 
 
 ## Setup and Installation
